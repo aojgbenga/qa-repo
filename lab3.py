@@ -119,3 +119,11 @@ else:
 
 # Print the average class mark
 print(f"The average class mark is {average_mark}.")
+
+### For loops Task 1
+for i in range(1, 101):
+  square = i * i
+  if square > 2000:
+    break
+  print(i, square)
+
